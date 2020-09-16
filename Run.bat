@@ -1,2 +1,2 @@
-python ray_marcher_demo.py
+python view_fractals.py
 pause
