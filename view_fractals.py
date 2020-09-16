@@ -2,14 +2,14 @@
 
 import pygame, sys, math, random, os
 import numpy as np
-import pyspace
+import fractal_tree
 
-from pyspace.coloring import *
-from pyspace.fold import *
-from pyspace.geo import *
-from pyspace.object import *
-from pyspace.shader import Shader
-from pyspace.camera import Camera
+from fractal_tree.coloring import *
+from fractal_tree.fold import *
+from fractal_tree.geo import *
+from fractal_tree.object import *
+from fractal_tree.shader import Shader
+from fractal_tree.camera import Camera
 
 from ctypes import *
 from OpenGL.GL import *
@@ -249,7 +249,7 @@ if __name__ == '__main__':
 
 	#======================================================
 	#             Change camera settings here
-	# See pyspace/camera.py for all camera options
+	# See fractal_tree/camera.py for all camera options
 	#======================================================
 	camera = Camera()
 	camera['ANTIALIASING_SAMPLES'] = 1
