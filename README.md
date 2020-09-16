@@ -6,3 +6,9 @@ GLSL Fractal Ray Marcher in Python
 ```bash
 pip install -r requirements.txt
 ```
+
+## Run
+
+```bash
+python view_fractals.py
+```
